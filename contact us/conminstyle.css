@@ -1,0 +1,25 @@
+@media screen and (max-width:850px) {
+    .main{
+        width: 100%;
+        display: block; 
+    }
+    .Name{
+        width: 100%;
+        margin-top: 6px;
+    }
+    .Email{
+        width: 100%;
+        margin-top: 6px;
+    }
+    .Phone{
+        width: 100%;
+        margin-top: 6px;
+    }
+    .Message {
+        width: 100%;
+        margin-top: 6px;
+    }
+    .submit{
+        width: 100%;
+    }
+}

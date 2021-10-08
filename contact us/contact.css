@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+::selection {
+    color: #eee;
+    background: #333;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: Oswald,sans-serif; 
+    position: relative;
+}
+.container img{
+    width: 100%;
+}
+.main{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .mailimg{
+    width: 400px;
+    height: 400px;
+}
+.container .center{
+    margin-top: 30px;
+    width: 70%;
+}
+.container .center .title .feel{
+    font-size: 18px;
+    margin-left: 2px;
+}
+.container .center .title .con{
+    font-size: 30px;
+}
+.container .center .content{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    word-spacing: 5px;
+}
+.container .center .content a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(88, 84, 84);
+}
+
+.container .center .icons{
+    width: 10%;
+    margin-left: 90px;
+    padding: 10px;
+   text-align:left;
+   display: flex;
+   justify-content: space-between;
+}
+.container .center .icons li{
+    list-style-type: none;
+    margin-left: 10px;
+    padding-right: 20px;
+}
+.container .center .icons li i{
+    color: rgb(0, 0, 252);
+    cursor: pointer;
+}
+.container1{
+    width: 100%;
+    display: flex;
+}
+.container1 .contact{
+    width: 100%;
+    padding: 70px;
+}
+.Name{
+    width: 75%;
+    margin-top: 6px;
+}
+.Email{
+    width: 75%;
+    margin-top: 6px;
+}
+.Phone{
+    width: 75%;
+    margin-top: 6px;
+}
+.Message {
+    width: 75%;
+    margin-top: 6px;
+}
+.Message textarea{
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 12px 10px;
+    font-size: 15px;
+    background-color:rgb(236, 232, 232);
+}
+.container1 input{
+    font-size: 15px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 100%;
+    background-color:rgb(236, 232, 232);
+}
+.req{
+    color: tomato;
+    margin-left: 2px;
+}
+.submit{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.submit input{
+    width: 100px;
+    margin: auto;
+    background-color: black;
+    color: whitesmoke;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit input:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

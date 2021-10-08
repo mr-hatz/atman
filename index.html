@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ātman Home</title>
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="minstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body onresize="iframeLoaded()">
+    <header>
+        <nav>
+            <div class="img">
+                <img src="/images/logo.png" alt="">
+                <h2>tman</h2>
+            </div>
+            <ol id="ol">
+                <li><a onclick="frameshow(0)" value="/home/home.html" class="active">HOME</a></li>
+                <li><a onclick="frameshow(1)" value="/about us/About us.html" class="active">ABOUT US</a></li>
+                <li><a onclick="frameshow(2)" value="/rebar/Rebar.html" class="active">REBAR DETALILING</a></li>
+                <!-- <li><a onclick="frameshow(3)" value="/career/Career.html" class="active">CAREER</a></li> -->
+                <li><a onclick="frameshow(3)" value="/contact us/Contact.html" class="active">CONTACT US</a></li>
+            </ol>
+            <div class="res">
+                <ion-icon id="menu" onclick="showmenu()" class="menu" name="menu-outline"></ion-icon>
+                <ion-icon id="close" onclick="closemenu()" class="close" name="close-outline"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main">
+        <iframe scrolling='no' id="iframe" onload="iframeLoaded()" src="" frameborder="0"></iframe>
+    </div>
+    <footer>
+        <div class="info">
+            <span class="span">
+                <i class="bi bi-envelope-fill"></i>
+                <span>sugumar@atmanrebar.com</span>
+            </span>
+            <span class="span">
+                <i class="bi bi-telephone-fill"></i>
+                <span>9080034918</span>
+            </span>
+        </div>
+        <div class="myself">
+            <span>made with</span>
+            <lottie-player src="/images/heart.json" background="transparent" color="red" speed="1"
+                style="width: 50px; height: 50px;" loop autoplay></lottie-player>
+            <span>by Attirant Webz</span>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
